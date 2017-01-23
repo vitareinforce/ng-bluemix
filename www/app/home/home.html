@@ -1,0 +1,12 @@
+<div ng-controller='home as h'>
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Ng-Bluemix</h1>
+        <p>This is a example get data from api of ng-bluemix.</p>
+        <p>Using Flask.</p>
+        <p>Members</p>
+        <div ng-repeat="data in h.datas">
+          <p> - {{ data.name }} ({{ data.nim }})</p>
+        </div>
+      </div>
+</div>

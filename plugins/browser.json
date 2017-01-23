@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "id.vitradisapratama.ngbluemix"
+        }
+    }
+}
