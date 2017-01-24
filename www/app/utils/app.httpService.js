@@ -5,6 +5,7 @@
 
     function httpService($http, $q, config) {
         var service = {
+            getFullLinks: getFullLinks,
             get: get,
             post: post,
             put: put,
@@ -14,6 +15,17 @@
         }
 
         return service;
+
+        function getFullLinks(link) {
+          var request = $http({
+            url: link,
+            method: "GET",
+            headers: {
+              "Content-type": "application/json"
+            }
+          });
+          return(request.then(handleSuccess,handleError));
+        }
 
         function get(link) {
           var request = $http({
