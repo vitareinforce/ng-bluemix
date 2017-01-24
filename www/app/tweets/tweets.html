@@ -1,0 +1,9 @@
+<div ng-controller='tweets as t'>
+
+  <div ng-repeat="tweets in t.datas">
+    <p>{{ tweets.user.name }}</p>
+    <p>{{ tweets.user.screen_name }}</p>
+    <p align="justify">{{ tweets.user.text }}</p>
+  </div>
+
+</div>
